@@ -1,0 +1,56 @@
+{
+  "name": "wrapped-punks-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/next-js": "^2.1.4",
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@tanstack/react-query": "^4.29.18",
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "alchemy-sdk": "^2.9.1",
+    "chakra-react-select": "^4.6.0",
+    "date-fns": "^2.30.0",
+    "decimal.js": "^10.4.3",
+    "eslint": "^8.43.0",
+    "eslint-config-next": "13.4.7",
+    "framer-motion": "^10.12.17",
+    "jotai": "^2.2.1",
+    "next": "13.4.7",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-virtuoso": "^4.3.11",
+    "shade-generator": "^1.2.7",
+    "typescript": "5.1.3",
+    "viem": "^1.1.8",
+    "wagmi": "^1.3.1"
+  },
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^4.29.9",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8",
+    "tsc": "^2.0.4"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  }
+}
